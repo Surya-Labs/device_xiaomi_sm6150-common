@@ -6,5 +6,9 @@
     {
         "repository":   "vendor_xiaomi_sm6150-common",
         "target_path":  "vendor/xiaomi/sm6150-common"
+    },
+    {
+        "repository"   : "android_packages_apps_GCamGOPrebuilt",
+        "target_path"  : "packages/apps/GCamGOPrebuilt"
     }
 ]
