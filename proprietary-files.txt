@@ -1,4 +1,4 @@
-# Common proprietary files - from toco MIUI V12.1.4.0.RFNMIXM package, unless pinned
+# Common proprietary files - from surya MIUI V12.5.1.0.RJGMIXM package, unless pinned
 
 # ADSP - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/bin/adsprpcd|c8a45eb83a6d70dcbcc1b8ec574391b49e8ca8b9
@@ -98,10 +98,12 @@ vendor/lib64/libjnihelper.so|89136c4d8541cb5b303615b100b4708f7ee2f429
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|398e5510db4d739de008b7230aa6e688d6c51a8a
 
 # Charger - from LA.UM.9.1.r1-09100-SMxxx0.0
-vendor/bin/hvdcp_opti|99a0fc35ec4ede7fb067013bcab722a8aa2f828f
 vendor/bin/init.qti.chg_policy.sh|6a983698aca9aae4f569f4aaf9a0f4a491770261
 vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
+
+# Charger - HVDCP
+vendor/bin/hvdcp_opti
 
 # CNE - from LA.UM.9.1.r1-09100-SMxxx0.0
 -vendor/app/CneApp/CneApp.apk|f90e9b497c0bd9328e8e63120615f2704489dbbc
@@ -349,12 +351,12 @@ vendor/lib64/libllvm-qcom.so|ce7227f3c6aacaecfb83113c6052318cb159eea0
 vendor/lib64/librs_adreno.so|d8bee70cc12ab5c6a979427e24fb7843fddae08b
 
 # Hotword enrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
-product/etc/permissions/privapp-permissions-google-hotword.xml
-product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED|91c49e2f1f95fe76952eb55d7a936a997685b964
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED|89b2c917c0c35489f10306f1627b2cf7cf6b59cf
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|0492cd3db2e253e23b78e56fa8ea7b3a4b15edeb
+product/etc/permissions/privapp-permissions-google-hotword.xml|325ff76a3a1daa6eb1bdf0eb659fa31fa6e9d4ed
+product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml|a062041908164045e8b658d1cc4e8f3302f4bb90
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -366,7 +368,7 @@ vendor/lib64/libqtikeymaster4.so
 
 # Listen
 vendor/lib/libadpcmdec.so
-vendor/lib/librice.so
+vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
 # Media - from LA.UM.9.1.r1-09100-SMxxx0.0
