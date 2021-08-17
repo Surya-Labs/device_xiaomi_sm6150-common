@@ -1,5 +1,4 @@
 # Audio
-persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=2
@@ -21,6 +20,7 @@ ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=11
 ro.vendor.audio.sdk.ssr=false
 ro.vendor.audio.sfx.scenario=true
+ro.vendor.audio.soundfx.type=mi
 ro.vendor.audio.soundfx.usb=true
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
